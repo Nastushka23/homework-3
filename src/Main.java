@@ -131,7 +131,7 @@ public class Main {
         System.out.println("Денис теперь получает "+newWageDen+" рублей в месяц. Годовой доход вырос на "
                 +annualDifferenceWageDen+" рублей");
         System.out.println("Кристина теперь получает "+newWageKris+" рублей в месяц. Годовой доход вырос на "
-                +annualDifferenceWageKris+" рублей");
+                +annualDifferenceWageKris+" рублей!");
 
 
 
