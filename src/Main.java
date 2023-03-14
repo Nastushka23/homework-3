@@ -31,11 +31,11 @@ public class Main {
         System.out.println(a);
         long b=987678965549L;
         System.out.println(b);
-        float c=2.786f;
+        double c=2.786;
         System.out.println(c);
         short d=569;
         System.out.println(d);
-        short e=-159;
+        int e=-159;
         System.out.println(e);
         short f=27897;
         System.out.println(f);
@@ -104,9 +104,10 @@ public class Main {
         int dayTwoVar=loseWeightGr/grDayTwoVar;
         System.out.println("Спортсмен похудеет за "+dayOneVar+" дней, если будет сбрасывать вес по 250 " +
                 "гр. каждый день и за "+dayTwoVar+" дней, если будет худеть по 500гр.в день.");
+        double averageValue=(grDayOneVar+grDayTwoVar)/2D;
+        double remainder=loseWeightGr/averageValue;
+        System.out.println("В среднем уйдет на похудение "+remainder+" дней.");
 
-        int onAverageDays=(dayOneVar+dayTwoVar)/2;
-        System.out.println(onAverageDays+" день может потребоваться в среднем, чтобы добиться результата похудения");
 
     }
     public static void task8(){
